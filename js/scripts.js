@@ -20,8 +20,9 @@ var replaceNumbers = function(input) {
         }
     }
     return text
-
 };
+
+
 $(document).ready(function() {
     $("#submit").click(function() {
         var entry = $("#input").val()
