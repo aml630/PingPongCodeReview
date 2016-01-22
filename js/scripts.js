@@ -1,8 +1,8 @@
 var listNumbers = function(input) {
     var numbers = []
+    // debugger;
     if(isNaN(input)){
       alert = alert("Please enter a number")
-      console.log(alert)
       return alert
     }else {
     for (var i = 1; i <= input; i++) {
@@ -27,15 +27,27 @@ var replaceNumbers = function(input) {
         }
     }
     return text
-
 };
-$(document).ready(function() {
-    $("#submit").click(function() {
-        var entry = $("#input").val()
-        var final = replaceNumbers(entry);
-        $("#hidden").show()
-        $("li").text("")
-        $("li").append(final)
-    });
 
-})
+var blinks = function(input) {
+  var replace = replaceNumbers(input);
+  return replace
+}
+
+var other = function(input) {
+  var other = blinks(input);
+  console.log(other)
+  return other
+
+}
+//
+// $(document).ready(function() {
+//     $("#submit").click(function() {
+//         var entry = $("#input").val()
+//         var final = replaceNumbers(entry);
+//         $("#hidden").show()
+//         $("li").text("")
+//         $("li").append(final)
+//     });
+//
+// })
