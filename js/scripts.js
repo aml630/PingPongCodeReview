@@ -1,9 +1,16 @@
 var listNumbers = function(input) {
     var numbers = []
+    if(isNaN(input)){
+      alert = alert("Please enter a number")
+      console.log(alert)
+      return alert
+    }else {
     for (var i = 1; i <= input; i++) {
         numbers.push(i)
     }
     return numbers
+  }
+
 }
 var replaceNumbers = function(input) {
     var numArray = listNumbers(input);
