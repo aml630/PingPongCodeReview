@@ -1,21 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
-    <script src="js/jquery-1.12.0.js"></script>
-    <script src="js/scripts.js"></script>
-  </head>
-  <div class = "container">
-  <h1>hello</h1>
-</div>
-  <body>
+   <head>
+      <meta charset="utf-8">
+      <title></title>
+      <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+      <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+      <script src="js/jquery-1.12.0.js"></script>
+      <script src="js/scripts.js"></script>
+   </head>
 
-<input id = "input"></input>
+      <body>
+        <div class = "container-fluid">
 
-<button id = "submit">Submit</button>
-
-  </body>
+         <div class = "row">
+           <div class = "col-sm-12 header">
+              <h1>PingPong</h1>
+           </div>
+         </div>
+         <div class = "row">
+            <div class = "col-xs-3 sidebar">
+               <h2>About Ping Pong</h2>
+               <h3>Created By</h3>
+               <h4>Alex Larson</h4>
+               <h3>Github Username/URL:</h3>
+               <a href = "#">aml630</a>
+               <h3>Level 2 Test For:</h3>
+               <h4>C#</h4>
+            </div>
+            <div class = "col-xs-8 main">
+               <h2>Let's Play</h2>
+               <h3>Rules:</h3>
+               <p>Ping Pong will count up your numbers from 1 with the following exceptions:</p>
+               <p>1.  Numbers divisible by 3 become "ping"</p>
+               <p>2.  Numbers divisible by 5 become "pong"</p>
+               <p>3.  Numbers divisible by 3 become "pingpong"</p>
+               <label>Enter your number here:</label>
+               <input id = "input"></input>
+               <button class = "btn btn-primary" id = "submit">Submit</button>
+               <ul id = "output">
+                  <li id = "hidden"></li>
+               </ul>
+            </div>
+         </div>
+       </div>
+   </body>
 </html>

@@ -29,7 +29,9 @@ $(document).ready(function() {
   $("#submit").click(function () {
     var entry = $("#input").val()
     var final = replaceNumbers(entry);
-    $("h1").append(final)
+    $("#hidden").show()
+    $("li").text("")
+    $("li").append(final)
   });
 
 })

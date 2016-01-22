@@ -1,0 +1,35 @@
+#hidden {
+  display: none;
+}
+
+.sidebar {
+  margin-top: 30px;
+  margin-right: 10px;
+
+  background-color:  #00b359;
+  height: 1200px;
+}
+.sidebar h3 {
+  color: #f6e2bb;
+}
+.sidebar h4 {
+  color: white;
+}
+.header {
+  background-color:  #f6e2bb;
+}
+.header h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.main {
+  margin-top: 50px;
+  margin-left: 30px;
+  height: 1200px;
+}
+
+.row {
+  background-color: #e0ebeb;
+}
