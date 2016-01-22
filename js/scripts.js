@@ -21,7 +21,6 @@ var replaceNumbers = function (input) {
           text += "<li>" + i + "</li>"
         }
   }
-  console.log(text)
   return text
 
 };
